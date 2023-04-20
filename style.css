@@ -136,9 +136,31 @@ section {
    height: 110%;
 }
 
+
 @media(max-width: 1068px) {
    .home-img {
       display: none;
+   }
+
+   .toggle {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 30px;
+      height: 30px;
+      background: #111 url(./images/menu.png);
+      z-index: 20;
+      background-size: 15px;
+      background-position: center;
+      background-repeat: no-repeat;
+      cursor: pointer;
+   }
+
+   .toggle.active {
+      background: #111 url(./images/close.png);
+      background-size: 13px;
+      background-position: center;
+      background-repeat: no-repeat;
    }
 
    .logo {
@@ -150,9 +172,11 @@ section {
 
    section {
       padding: 100px 40px;
+      overflow: hidden;
    }
 
    .navigation ul li a {
       font-size: 2rem;
    }
 }
+
