@@ -136,6 +136,24 @@ section {
    height: 110%;
 }
 
+/* About me page */
+.title {
+   max-width: 600px;
+}
+.title .web-logos {
+   position: absolute;
+   display: flex;
+   height: 100px;
+   width: 100px;
+   margin-top: 50px;
+   gap: 30px;
+}
+
+#js-logo {
+   margin-left: 10px;
+}
+
+
 
 @media(max-width: 1068px) {
    .home-img {
@@ -146,8 +164,8 @@ section {
       position: fixed;
       top: 0;
       right: 0;
-      width: 30px;
-      height: 30px;
+      width: 40px;
+      height: 40px;
       background: #111 url(./images/menu.png);
       z-index: 20;
       background-size: 15px;
@@ -177,6 +195,11 @@ section {
 
    .navigation ul li a {
       font-size: 2rem;
+   }
+
+   .web-logos {
+      margin-left: 0;
+      margin-top: 25px;
    }
 }
 
