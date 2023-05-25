@@ -8,6 +8,7 @@
 }
 
 html, body {
+   background-color: #f1f1f1;
    font-family: 'Poppins', sans-serif;
    color: #111;
 }
@@ -149,10 +150,15 @@ section {
    gap: 30px;
 }
 
-#js-logo {
-   margin-left: 10px;
+.link-btn {
+   display: inline-block;
+   background: #111;
+   color: #fff;
+   padding: 10px 20px;
+   border: 0;
+   border-radius: 5px;
+   text-decoration: none;
 }
-
 
 
 @media(max-width: 1068px) {
@@ -197,9 +203,8 @@ section {
       font-size: 2rem;
    }
 
-   .web-logos {
-      margin-left: 0;
-      margin-top: 25px;
+   .link-btn {
+      padding: 5px 10px;
    }
 }
 
