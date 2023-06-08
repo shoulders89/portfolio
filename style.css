@@ -141,14 +141,7 @@ section {
 .title {
    max-width: 600px;
 }
-.title .web-logos {
-   position: absolute;
-   display: flex;
-   height: 100px;
-   width: 100px;
-   margin-top: 50px;
-   gap: 30px;
-}
+
 
 .link-btn {
    display: inline-block;
@@ -158,6 +151,31 @@ section {
    border: 0;
    border-radius: 5px;
    text-decoration: none;
+}
+
+.links {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+  
+   
+}
+
+.links a {
+   justify-content: space-between;
+   background: #111;
+   padding: 10px 20px;
+   text-decoration: none;
+   color: #fff;
+   border-radius: 5px;
+   
+
+}
+
+.links ul li {
+   margin-bottom: 30px;
+   list-style: none;
 }
 
 
